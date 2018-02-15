@@ -1,0 +1,55 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+  	font-family: Palatino,'Palatino Linotype', serif;
+	font-size: 32px;
+  	color:rgb(121,149,117);
+}
+
+h2 {
+	font-size: 100px;
+}
+
+
+.home {
+  	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+ 	color: #4B0082;
+	padding: 250px 0;
+	margin: 30px;
+  	background-image: url("C:/Users/Jay/Desktop/Test_Home_screen/images/tri_force.png");
+  	background-repeat: no-repeat;
+  	background-size: auto;
+  	background-position: center;
+}
+
+
+p {
+	font-size: 2rem
+}
+
+.home a {
+	color: #00FFAA;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+.home a:active{
+	top:2px;
+}
+
+.btn.btn-primary {
+	border-radius:10px;
+	color:#ffffff;
+	background-color:#4B0082;
+	text-shadow:none
+}
+
+#footer{
+  font-size:2rem;
+  color: #4B0082;
+}
