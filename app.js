@@ -5,6 +5,7 @@ var http = require('http');
 
 //Initiate
 var app = express();
+var port = process.env.port || 3000;
 
 app.use(express.static('public'));
 
@@ -12,8 +13,12 @@ app.use(express.static('public'));
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname +'/index.html'));
 });
+// API/Greeting route
+app.get('/api/greeting', function(req,res) {
+  res.json({name: 'Jay', last name: 'Park'});
+});
 
 // Start Server
-app.listen(3000, function(){
+app.listen(port, function(){
   console.log('Server started on port 3000...')
 });
